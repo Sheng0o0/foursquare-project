@@ -1,4 +1,10 @@
 $(document).ready(function(){
+    
+    $("#search").click(function (evaluate){
+    $("#result").empty();
+    var place = $("#place").val();
+    var food = $('#food').val();
+    
     $.ajax({
         url:"https://api.foursquare.com/v2/venues/search
   ?client_id=TANBIGMKJ5H3TNHMZXDCNU4RTDJR3HZZ3BP2XK20T3PRRBI1
@@ -10,4 +16,10 @@ $(document).ready(function(){
       console.log(result);
   }
     )}:
+    
+    $("#clear").click(function (evaluate){
+        $("#result").empty();
+      });
+    
+    });
 });
