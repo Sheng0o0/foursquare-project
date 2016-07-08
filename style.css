@@ -1,0 +1,27 @@
+body{
+    background-image:url("http://marshall.org/wp-content/themes/marshall/img/featured-space-policy.jpg");
+    background-size: cover;
+}
+#result{
+    color:#ff00ff;
+}
+/*#food{
+    position: absolute;
+    top:400px;
+    left:500px;
+}
+#place{
+    position: absolute;
+    top:400px;
+    left:400px;
+}
+#search{
+    position: absolute;
+    top:500px;
+    left:400px;
+}
+#clear{
+    position: absolute;
+    top:500px;
+    left:500px;
+}*/
